@@ -6,7 +6,12 @@
     "@angular/core": "^18.0.0"
   },
   "dependencies": {
-    "tslib": "^2.3.0"
+    "clsx": "^2.1.1",
+    "tslib": "^2.3.0",
+    "ua-parser-js": "^1.0.38"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "devDependencies": {
+    "@types/ua-parser-js": "^0.7.39"
+  }
 }

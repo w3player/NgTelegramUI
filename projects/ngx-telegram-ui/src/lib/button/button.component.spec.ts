@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgxTelegramUiComponent } from './ngx-telegram-ui.component';
+import { ButtonComponent } from './button.component';
 
-describe('NgxTelegramUiComponent', () => {
-  let component: NgxTelegramUiComponent;
-  let fixture: ComponentFixture<NgxTelegramUiComponent>;
+describe('ButtonComponent', () => {
+  let component: ButtonComponent;
+  let fixture: ComponentFixture<ButtonComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NgxTelegramUiComponent]
+      imports: [ButtonComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(NgxTelegramUiComponent);
+    fixture = TestBed.createComponent(ButtonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

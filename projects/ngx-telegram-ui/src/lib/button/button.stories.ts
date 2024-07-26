@@ -39,10 +39,3 @@ export const Large: Story = {
     label: 'Button',
   },
 };
-
-export const Small: Story = {
-  args: {
-    size: 'small',
-    label: 'Button',
-  },
-};
